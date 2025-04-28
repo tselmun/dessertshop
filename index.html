@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desert Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: rgb(255, 224, 240);
+            color: rgb(70, 7, 129);
+        }
+        h2 { 
+            background-color: rgb(255, 187, 223);
+            border: 2px;
+            border-color: rgb(28, 1, 54);
+            border-radius: 7px;
+            border-style: solid;
+        }
+        h1 {
+            color: black;
+            background-color: rgb(255, 187, 223);
+            border: 2px;
+            border-color: rgb(28, 1, 54);
+            border-radius: 7px;
+            border-style: solid;
+        }
+        .highlight {
+            color: red;
+        }
+        .green {
+            color: green;
+        }
+        .blue {
+            color: blue;
+        }
+        .emoji {
+            font-size: 20px;
+        }
+        .li {
+            border: 1px;
+            border-color: rgb(0, 0, 0);
+            border-style: solid;
+            border-radius: 5px;
+            margin: 1px;
+            padding: 50px;
+            padding-left: 20px;
+            text-align: left;
+            display:inline-block
+        }
+        .lia {
+            border: 1px;
+            border-color: rgb(0, 0, 0);
+            border-style: solid;
+            border-radius: 5px;
+            margin: 1px;
+            padding: 50px 20px 50px 20px;
+            text-align: left;
+            display:inline-block
+        }
+        .ul {
+            text-align: center;
+            margin-right: 1px;
+            padding: 8px;
+            font-size: small;
+            display:inline-block
+        }
+        .find {
+            margin: 1px;
+            padding: 8px;
+            display:inline-block
+        }
+        .find::before {
+            content: "📍"; 
+        }
+        .find:hover {
+            color: rgb(0, 128, 0);
+        }
+        a:link {
+            color: rgb(232, 102, 185);
+        }
+        a:visited {
+            color: rgb(245, 99, 199);
+        }
+        .we {
+            margin-top: 200px;
+        }
+        .box {
+            background-color: #fffae6;     
+            border-radius: 10px;       
+            padding: 20px;
+            margin: 20px auto ;
+            width: 500px;
+            text-align: center;
+            box-shadow: 4px 3px 10px 3px rgba(0, 0, 0, 0.1) ;
+           
+        }
+        .open {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .image {
+           width: 150px; 
+           height: 200px;
+           display: block;
+           margin: 10px auto; 
+           border-radius: 10px; 
+        }
+
+    </style>
+</head>
+<body>
+   
+  <div class="box">
+    <h1>
+        <strong>🍰Desert Shop🍪</strong> 
+    </h1>
+    <img src="https://i.pinimg.com/736x/6f/a2/12/6fa212044776edcbc44b34687fc6e8e4.jpg" class="image">
+        <p>We create <span class="highlight">beautiful</span>, <span class="green">creative</span>, and <span class="blue">healthy</span> desserts.</p>
+        <hr/>
+    <h2>What do you want?</h2>
+        <ul class="li">
+            <li>Cookies: <strong>$0.50</strong> each</li>
+            <li>Cakes and pies: <strong>$5.00</strong> each</li>
+            <li>Chocolate: <strong>$2.00</strong> each</li>
+        </ul>
+    <h2>Opening Hours ⏰</h2>
+    <ul>
+        <li class="ul">🟢 <strong class="open">Monday to Thursday:</strong> 7:45 a.m. – 9:45 p.m.</li>
+        <li class="ul">🟢 <strong class="open">Friday:</strong> 7:45 a.m. – 4:30 p.m.</li>
+        <li class="ul">🟢 <strong class="open">Saturday:</strong> 9:00 a.m. – 4:30 p.m.</li>
+        <li class="ul">🔴 <strong class="open">Sunday:</strong> noon – 12:30 p.m.</li>
+    </ul>
+    <h2>Payment Methods💳</h2>
+    <p class="we">We accept:</p>
+    <ul class="li">
+        <li>💵Cash</li>
+        <li>🏧ATM Cards</li>
+        <li>💳Credit Cards</li>
+        <li>💎American Express</li>
+        <li>🌐Discovery</li>
+    </ul>
+    <p>
+        <a href="https://www.google.com/maps/@47.9526912,106.74176,12z?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
+        class="find">Find us on Google Maps</a>
+    </p>
+  </div>
+   
+</body>
+</html>
