@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .green{
+        height: 300px;
+        width: 300px;
+        background-color: rgb(141, 207, 150);
+    }
+    .blue{
+        height: 300px;
+        width: 300px;
+        background-color: rgb(126, 231, 231);
+    }
+    @media only screen and (max-width: 600px) {
+        .green {
+            background-color: rgb(126, 231, 231);
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        .blue {
+            background-color: rgb(141, 207, 150);
+        }
+    }
+</style>
+<body>
+    <div class="green"></div>
+    <br/>
+    <div class="blue"></div>
+</body>
+</html>
